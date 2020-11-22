@@ -43,7 +43,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <p className="copyright">&copy; {todayYear} <a href="https://wasek-bellah.web.app/" className="footerLink" target="_blank" rel="noopener noreferrer">Wasek Bellah</a>. All Right Reserved.</p>
+            <p className="copyright">&copy; {todayYear} All Right Reserved.</p>
         </footer>
     );
 };
