@@ -1,0 +1,42 @@
+.services{
+    .container{
+        grid-gap: 2rem 1rem;
+    }
+
+    .card{
+        text-align: center;
+        padding: 3rem 2rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        svg{
+            height: 5.5rem;
+            margin: 2.5rem 0;
+            fill: #fff;
+            transition: all .3s ease;
+        }
+
+        h2{
+            margin: 1.5rem 0;
+            color: #fff;
+            transition: all .3s ease;
+        }
+
+        p{
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        &:hover{
+            svg{
+                fill: $colorPrimary;
+            }
+
+            h2{
+                color: $colorPrimary;
+            }
+        }
+    }
+}

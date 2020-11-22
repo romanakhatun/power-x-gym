@@ -1,0 +1,21 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/grid";
+@import "base/typography";
+
+@import "components/aboutUs";
+@import "components/button";
+@import "components/classes";
+@import "components/extra";
+@import "components/membership";
+@import "components/pricingPlans";
+@import "components/services";
+@import "components/trainingPrograms";
+@import "components/whyChooseUs";
+
+@import "layout/footer";
+@import "layout/header";
+@import "layout/navigation";

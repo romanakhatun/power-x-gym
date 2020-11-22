@@ -1,0 +1,15 @@
+.trainingPrograms{
+    .container{
+        grid-gap: 1rem;
+
+        .singleClass{
+            button.btn{
+                text-align: left;
+                left: 0;
+                width: 70%;
+                transform: translate(0%, -100%);
+                margin-top: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+footer{
+    background-color: $colorSecondary;
+    color: #fff;
+
+    .container{
+        display: grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+        grid-gap: 3rem 1rem;
+        padding: 5rem 0;
+    }
+
+    h5{
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 1.5rem;
+    }
+
+    ul{
+        list-style-type: none;
+
+        li{
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    a{
+        color: #fff;
+        font-size: 1.4rem;
+        text-decoration: none;
+        transition: all .3s ease;
+
+        &:hover{
+            color: $colorPrimary;
+        }
+    }
+
+    p{
+        color: #fff;
+        font-size: 1.4rem;
+    }
+    >p{
+        color: #828282;
+        text-align: center;
+    }
+}

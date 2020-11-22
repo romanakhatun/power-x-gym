@@ -1,0 +1,86 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: $defaultFontSize;
+    color: $colorSecondary;
+    background-color: #fff;
+}
+
+.primaryColor{
+    color: $colorPrimary;
+}
+
+.logo{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    letter-spacing: .2rem;
+    font-weight: 400;
+    
+    @include respond(tab_land){
+        font-size: 5rem;
+    }
+    @include respond(tab_port){
+        font-size: 4.5rem;
+    }
+    @include respond(phone){
+        font-size: 4rem;
+    }
+}
+.headingPrimary{
+    color: #fff;
+    margin-bottom: 1rem;
+    backface-visibility: hidden;
+    animation: moveToRight 1s ease-out;
+}
+.globalHeadingPrimary{
+    animation: moveToTop 1s ease-out;
+}
+
+h2{
+    color: $colorSecondary;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+
+    @include respond(tab_land){
+        font-size: 3rem;
+    }
+    @include respond(phone){
+        font-size: 2.5rem;
+    }
+}
+
+h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+h4{
+    font-size: $defaultFontSize;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+h5{
+    font-size: 1.5rem;
+}
+
+p{
+    line-height: 200%;
+    color: $colorSecondary;
+
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+}

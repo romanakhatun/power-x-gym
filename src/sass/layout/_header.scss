@@ -1,0 +1,84 @@
+#header{
+    width: 100%;
+    z-index: 500;
+    position: fixed;
+    transition: all .5s ease;
+}
+
+.navbar{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all .5s ease-in-out;
+    }
+}
+
+.sticky{
+    background-color: rgba($colorSecondary, .0);
+    padding: 2rem 0;
+}
+.stickyAdd{
+    background-color: rgba($colorSecondary, .8);
+    box-shadow: 0 .5rem 1rem 0 rgba($colorSecondary, .3);
+    padding: 1rem 0;
+}
+
+
+// Hero Sections
+.heroHomeBox{
+    min-height: 500px;
+    height: 100vh;
+    padding: 8.5rem 0;
+
+    @include respond(tab_port){
+        height: auto;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10rem 3rem;
+        height: 100%;
+    
+        @include respond(tab_port){
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .left{
+        align-self: center;
+
+        p{
+            color: #eee;
+            margin-bottom: 2rem;
+            animation: moveToTop .5s ease-out .75s;
+            animation-fill-mode: backwards;
+        }
+    }
+
+    .right{
+        align-self: center;
+        animation: moveToLeft 1.5s ease-out;
+        animation-fill-mode: backwards;
+
+        .heroVideo{
+            text-align: center;
+            width: 100%;
+            min-height: 30rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+    }
+}
+
+.heroGlobalBox {
+    min-height: 250px;
+    height: 60vh;
+    padding: 8.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
