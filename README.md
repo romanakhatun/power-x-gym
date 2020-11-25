@@ -1,7 +1,5 @@
 # POWER X GYM
-#### Power X Gym is a Gym Website
-
-<br />
+#### Power X Gym create with React, JavaScript, Sass, Node, MongoDB, Heroku, Firebase, Stripe, Google Analytics.
 
 ### Main Featured:
     Google Web Fonts Included.
@@ -11,10 +9,6 @@
     Membership form developed using react form
     Integrated Stripe payment system
     Fully Responsive
-
-### Technology Used:
-    React, JavaScript, Sass, Node, MongoDB, Heroku, Firebase, Stripe, Google Analytics.
-
 <br />
 
-### [Preview Project](https://w-power-x-gym.web.app/)
+### [Preview Project](https://power-x-gym-468fb.web.app/)
