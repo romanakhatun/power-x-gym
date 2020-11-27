@@ -1,8 +1,6 @@
 # POWER X GYM
 #### Power X Gym is a Gym Website
 
-<br />
-
 ### Main Featured:
     Google Web Fonts Included.
     Gym Classes Page
