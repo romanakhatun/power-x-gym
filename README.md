@@ -23,5 +23,6 @@
 <img align="left" src="https://img.icons8.com/fluent/50/000000/stripe.png" alt="Stripe" width="40" height="40"/>
 <img align="left" src="https://cdn.buttercms.com/TioTuqhuQQugMujvl1xj" alt="Google-Analytics" width="60" height="60"/> 
 <br />
+<br/>
 
 ### [Preview Project](https://power-x-gym-468fb.web.app/)
