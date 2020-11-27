@@ -19,7 +19,7 @@
 <img align="left" src="https://icongr.am/devicon/heroku-original-wordmark.svg?size=128&color=currentColor" alt="Heroku" width="40" height="40"/> 
 <img align="left" src="https://img.icons8.com/color/48/000000/google-firebase-console.png" alt="Firebase" width="40" height="40"/> 
 <img align="left" src="https://img.icons8.com/fluent/50/000000/stripe.png" alt="Stripe" width="40" height="40"/>
-<img align="left" src="https://cdn.buttercms.com/TioTuqhuQQugMujvl1xj" alt="Google-Analytics" width="60" height="60"/> 
+<img align="left" src="https://cdn.buttercms.com/TioTuqhuQQugMujvl1xj" alt="Google-Analytics" width="60" height="40"/> 
 <br />
 <br/>
 
